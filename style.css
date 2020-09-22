@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+
+:root {
+    --site-green: #17B978;
+    --site-dark-grey-1: #263B5E;
+    --site-dark-grey-2: #6A7695;
+    --site-light-grey: #F5F4FB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway;
+}
+
+.nav-section {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo-text {
+    color: #000;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.green-dot {
+    position: relative;
+    display: inline-block;
+    background-color: var(--site-green);
+    height: 5px;
+    width: 5px;
+    border: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-item {
+    padding-left: 35px;
+    padding-right: 35px;
+    list-style: none;
+    font-weight: 500;
+}
