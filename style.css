@@ -2,6 +2,7 @@
     margin: 0;
     font-family: "Open Sans";
     font-size: 18px;
+    color: var(--site-dark-grey-2);
 }
 
 :root {
@@ -15,10 +16,33 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Raleway;
 }
 
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: var(--site-dark-grey-1);
+    line-height: 1.3;
+}
+
+h6 {
+    color: var(--site-green);
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.header {
+    width: 100%;
+    height: 800px;
+    background: url(./images/undraw_book_lover_mkck.svg);
+    background-repeat: no-repeat;
+    background-position-x: right; 
+}
+
 .nav-section {
     display: grid;
     grid-template-columns: 20% 80%;
-    padding: 200px;
+    padding: 320px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -38,14 +62,44 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
 }
 
+.green-btn {
+    background-color: var(--site-green);
+    padding: 20px;
+    padding-right: 50px; 
+    padding-left: 50px;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
 .menu {
     display: flex;
     justify-content: flex-end;
 }
 
 .menu-item {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
     list-style: none;
     font-weight: 500;
+    color: #000;
+}
+
+.banner-section {
+    display: flex;
+    padding: 120px;
+    padding-left: 320px;
+    padding-right: 270px;
+}
+
+.left-banner-section {
+    width: 35%;
+}
+
+.partners-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 100px;
+    padding-left: 320px;
+    padding-right: 270px;
 }
