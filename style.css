@@ -23,6 +23,24 @@ h1 {
     line-height: 1.3;
 }
 
+h2 {
+    color: var(--site-dark-grey-1);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 36px;
+    color: var(--site-dark-grey-1);
+    font-family: "Open Sans";
+}
+
+h5 {
+   color: var(--site-dark-grey-1);
+   font-size: 24px;
+   line-height: 1.9;
+}
+
 h6 {
     color: var(--site-green);
 }
@@ -36,13 +54,15 @@ h6 {
     height: 800px;
     background: url(./images/undraw_book_lover_mkck.svg);
     background-repeat: no-repeat;
-    background-position-x: right; 
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: contain;
 }
 
 .nav-section {
     display: grid;
     grid-template-columns: 20% 80%;
-    padding: 320px;
+    padding: 19%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -88,8 +108,8 @@ h6 {
 .banner-section {
     display: flex;
     padding: 120px;
-    padding-left: 320px;
-    padding-right: 270px;
+    padding-left: 19%;
+    padding-right: 15%;
 }
 
 .left-banner-section {
@@ -100,6 +120,65 @@ h6 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 100px;
-    padding-left: 320px;
-    padding-right: 270px;
+    padding-left: 19%;
+    padding-right: 15%;
+}
+
+.about-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:18%;
+    padding-top:50px;
+    padding-bottom:50px;
+    grid-gap:30px;
+}
+
+.right-about-section {
+    padding-right: 80px;
+}
+
+.stat-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 18%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-gap: 70px;
+}
+
+.stat-1 {
+    background-color: var(--site-light-grey);
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.stat-2 {
+    background-color: var(--site-light-grey);
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-3 {
+    background-color: var(--site-light-grey);
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-4 {
+    background-color: var(--site-light-grey);
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
