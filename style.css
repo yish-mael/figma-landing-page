@@ -12,6 +12,7 @@
     --site-light-grey: #F5F4FB;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Raleway;
 }
@@ -33,6 +34,11 @@ h3 {
     font-size: 36px;
     color: var(--site-dark-grey-1);
     font-family: "Open Sans";
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 h5 {
@@ -187,7 +193,7 @@ h6 {
     padding: 100px;
 }
 
-#align-text {
+.align-text {
     text-align: center;
     padding:20px;
 }
@@ -232,7 +238,7 @@ h6 {
     border-radius: 5px;
 }
 
-#align {
+.align {
     text-align: center;
 }
 
@@ -241,6 +247,7 @@ h6 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:40px;
     padding: 220px;
+    padding-top: 50px;
 }
 
 .services-section1 {
@@ -256,4 +263,69 @@ h6 {
 .services-section3 {
     background-color: var(--site-light-grey);
     padding: 27px;
+}
+
+.testimonial-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/bg\ image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;  
+}
+
+.testimonial-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    grid-gap: 40px;
+}
+
+.testimonial {
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: white;
+    margin-top: -80px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.test-profile {
+    display: flex;
+    padding-top: 30px;
+    margin-left: -30px;
+
+}
+
+.quote-icon {
+    margin-top: -100px;
+}
+
+.image-border-radius {
+    border-radius: 100px;
+}
+
+.text-padding {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.align-profilenames {
+    padding-left: 20px;
+}
+
+.library-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: -20px;
+    
 }
