@@ -328,4 +328,29 @@ h6 {
     padding-right: 140px;
     margin-bottom: -20px;
     
+}.biography-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.right-biography-section {
+    background-color: #F5F4FB;
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-right: 40px;
+}
+
+.bio-alignment {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padding {
+    padding-top: 10px;
 }
