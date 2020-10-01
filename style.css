@@ -354,3 +354,85 @@ h6 {
 .padding {
     padding-top: 10px;
 }
+
+.contact-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    grid-gap: 40px;
+}
+
+.contact-section1 {
+    background-color: var(--site-light-grey);
+    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact-section2 {
+    background-color: var(--site-light-grey);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.contact-section3 {
+    background-color: var(--site-light-grey);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.contact-section4 {
+    background-color: var(--site-light-grey);
+    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.img-padding {
+    padding-bottom: 30px;
+}
+
+.map-form-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.form-section {
+    background-color: var(--site-light-grey);
+    display: flex;
+    justify-content: center;
+}
+
+#contact-form {
+    padding: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.form-layer {
+    padding: 10px;
+    padding-top: 30px;
+    
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 30px;
+    border: 1px solid #F5F4FB;
+    border-radius: 5px;
+    width: 400px;
+}
+
+input[type=text], input[type=email] {
+    height: 10px;
+}
